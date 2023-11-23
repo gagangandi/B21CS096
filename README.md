@@ -128,3 +128,8 @@ Please write your answers here
 9) d
 10) b
 11) c
+12) In xv6, a process can be in the following states:
+    "RUNNABLE" state when it is ready to execute,
+    "SLEEPING" when waiting for an event,
+    "RUNNING" when actively executing on the CPU,
+    "UNUSED" when it's not in use. 

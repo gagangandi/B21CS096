@@ -132,4 +132,15 @@ Please write your answers here
     "RUNNABLE" state when it is ready to execute,
     "SLEEPING" when waiting for an event,
     "RUNNING" when actively executing on the CPU,
-    "UNUSED" when it's not in use. 
+    "ZOMBIE" after termination but still has an entry in the process table,
+    "UNUSED" when it is not in use.
+13) xv6 employs a hierarchical file system structure, similar to Unix, with directories, files, and inodes. Inodes are used to store metadata about files and their data block locations.
+14) system calls are the gateway to kernel services, while library functions are higher-level abstractions built on top of these system calls.
+    ex- system calls:- fork() for process creation and write() for writing to a file.
+    ex- library functions:- printf() from the standard C library, which formats and prints output, and malloc() for dynamic memory allocation.
+15) In xv6, memory paging is implemented using demand paging. xv6 uses a two-level page table structure.
+    Benifits:- Efficient Use of Memory, Simplified Memory Management, Memory Protection, Process Isolation.
+16) ls: List Files. Lists the files and directories in the specified directory.
+    cd: Change Directory. Changes the current working directory to the specified directory.
+    cp: Copy Files. Copies the contents of the source file to the destination file.
+17) 

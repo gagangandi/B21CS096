@@ -119,4 +119,12 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 Please write your answers here
 1) b
 2) c
+3) d
+4) b
+5) a
+6) c
+7) a
+8) a
+9) d
+10) b
 11) c
